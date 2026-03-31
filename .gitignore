@@ -1,0 +1,6 @@
+*.vcd
+*.out
+*.log
+*.tmp
+a.out
+.DS_Store
