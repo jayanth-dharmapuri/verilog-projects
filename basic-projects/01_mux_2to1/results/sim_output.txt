@@ -1,0 +1,10 @@
+PASS: a = 0 b = 0 sel = 0 y = 0
+PASS: a = 0 b = 0 sel = 1 y = 0
+PASS: a = 0 b = 1 sel = 0 y = 0
+PASS: a = 0 b = 1 sel = 1 y = 1
+PASS: a = 1 b = 0 sel = 0 y = 1
+PASS: a = 1 b = 0 sel = 1 y = 0
+PASS: a = 1 b = 1 sel = 0 y = 1
+PASS: a = 1 b = 1 sel = 1 y = 1
+ ALL TESTS PASSED
+tb/mux_2to1_tb.v:53: $finish called at 8000 (1ps)
