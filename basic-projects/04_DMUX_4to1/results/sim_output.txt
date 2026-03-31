@@ -1,0 +1,10 @@
+PASS: ip=0 s1=0 s2=0 -> y1=0 y2=0 y3=0 y4=0
+PASS: ip=0 s1=0 s2=1 -> y1=0 y2=0 y3=0 y4=0
+PASS: ip=0 s1=1 s2=0 -> y1=0 y2=0 y3=0 y4=0
+PASS: ip=0 s1=1 s2=1 -> y1=0 y2=0 y3=0 y4=0
+PASS: ip=1 s1=0 s2=0 -> y1=1 y2=0 y3=0 y4=0
+PASS: ip=1 s1=0 s2=1 -> y1=0 y2=1 y3=0 y4=0
+PASS: ip=1 s1=1 s2=0 -> y1=0 y2=0 y3=1 y4=0
+PASS: ip=1 s1=1 s2=1 -> y1=0 y2=0 y3=0 y4=1
+ALL TESTS PASSED
+tb/04_DMUX_tb.v:66: $finish called at 8000 (1ps)

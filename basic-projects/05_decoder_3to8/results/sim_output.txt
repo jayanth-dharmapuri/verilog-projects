@@ -1,0 +1,10 @@
+PASS: ip=0 y=1
+PASS: ip=1 y=10
+PASS: ip=10 y=100
+PASS: ip=11 y=1000
+PASS: ip=100 y=10000
+PASS: ip=101 y=100000
+PASS: ip=110 y=1000000
+PASS: ip=111 y=10000000
+ALL TESTS PASSED
+tb/dectb.v:61: $finish called at 8000 (1ps)
