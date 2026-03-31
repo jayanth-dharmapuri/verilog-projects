@@ -1,0 +1,5 @@
+a=0 b=0 | inv=1 and=0 or=0 nand=1 nor=1 xor=0 xnor=1
+a=0 b=1 | inv=1 and=0 or=1 nand=1 nor=0 xor=1 xnor=0
+a=1 b=0 | inv=0 and=0 or=1 nand=1 nor=0 xor=1 xnor=0
+a=1 b=1 | inv=0 and=1 or=1 nand=0 nor=0 xor=0 xnor=1
+tb/02_basic_gates_tb.v:37: $finish called at 4000 (1ps)
