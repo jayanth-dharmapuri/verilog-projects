@@ -1,0 +1,16 @@
+----- HALF ADDER TESTS -----
+HA PASS: a=0 b=0 -> sum=0 carry=0
+HA PASS: a=0 b=1 -> sum=1 carry=0
+HA PASS: a=1 b=0 -> sum=1 carry=0
+HA PASS: a=1 b=1 -> sum=0 carry=1
+----- FULL ADDER USING HALF ADDERS TESTS -----
+FA PASS: a=0 b=0 cin=0 -> sum=0 carry=0
+FA PASS: a=0 b=0 cin=1 -> sum=1 carry=0
+FA PASS: a=0 b=1 cin=0 -> sum=1 carry=0
+FA PASS: a=0 b=1 cin=1 -> sum=0 carry=1
+FA PASS: a=1 b=0 cin=0 -> sum=1 carry=0
+FA PASS: a=1 b=0 cin=1 -> sum=0 carry=1
+FA PASS: a=1 b=1 cin=0 -> sum=0 carry=1
+FA PASS: a=1 b=1 cin=1 -> sum=1 carry=1
+ALL TESTS PASSED
+tb/tb.v:105: $finish called at 12000 (1ps)

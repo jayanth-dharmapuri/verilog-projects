@@ -1,0 +1,10 @@
+PASS: a=0000 b=0000 -> sum=0000 carry=0000
+PASS: a=0001 b=0001 -> sum=0010 carry=0001
+PASS: a=0011 b=0101 -> sum=1000 carry=0111
+PASS: a=0111 b=0001 -> sum=1000 carry=0111
+PASS: a=1111 b=0001 -> sum=0000 carry=1111
+PASS: a=1111 b=1111 -> sum=1110 carry=1111
+PASS: a=1010 b=0101 -> sum=1111 carry=0000
+PASS: a=1001 b=0110 -> sum=1111 carry=0000
+ALL TESTS PASSED
+tb/tb.v:68: $finish called at 8000 (1ps)
