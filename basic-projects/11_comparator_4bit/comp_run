@@ -1,0 +1,157 @@
+#! /opt/homebrew/Cellar/icarus-verilog/13.0/bin/vvp
+:ivl_version "13.0 (stable)" "(v13_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/system.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/va_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/v2009.vpi";
+S_0x1012beaa0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0x1012bec20 .scope module, "comp4tb" "comp4tb" 3 1;
+ .timescale 0 0;
+v0x1012ca620_0 .var "a", 3 0;
+v0x1012ca6c0_0 .var "b", 3 0;
+v0x1012ca760_0 .var "e1", 0 0;
+v0x1012ca800_0 .var "e2", 0 0;
+v0x1012ca8a0_0 .var "e3", 0 0;
+v0xb31068000_0 .net "eq", 0 0, L_0x1012ca9e0;  1 drivers
+v0xb310680a0_0 .var/i "errors", 31 0;
+v0xb31068140_0 .net "gt", 0 0, L_0x1012caa80;  1 drivers
+v0xb310681e0_0 .var/i "i", 31 0;
+v0xb31068280_0 .var/i "j", 31 0;
+v0xb31068320_0 .net "lt", 0 0, L_0x1012ca940;  1 drivers
+S_0x1012c5340 .scope module, "c4" "comp4" 3 9, 4 1 0, S_0x1012bec20;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "a";
+    .port_info 1 /INPUT 4 "b";
+    .port_info 2 /OUTPUT 1 "lt";
+    .port_info 3 /OUTPUT 1 "eq";
+    .port_info 4 /OUTPUT 1 "gt";
+v0x1012c86a0_0 .net "a", 3 0, v0x1012ca620_0;  1 drivers
+v0x1012c9f40_0 .net "b", 3 0, v0x1012ca6c0_0;  1 drivers
+v0x1012c54c0_0 .net "eq", 0 0, L_0x1012ca9e0;  alias, 1 drivers
+v0x1012c5560_0 .net "gt", 0 0, L_0x1012caa80;  alias, 1 drivers
+v0x1012ca2c0_0 .net "lt", 0 0, L_0x1012ca940;  alias, 1 drivers
+L_0x1012ca940 .cmp/gt 4, v0x1012ca6c0_0, v0x1012ca620_0;
+L_0x1012ca9e0 .cmp/eq 4, v0x1012ca620_0, v0x1012ca6c0_0;
+L_0x1012caa80 .cmp/gt 4, v0x1012ca620_0, v0x1012ca6c0_0;
+S_0x1012ca360 .scope task, "run_case" "run_case" 3 13, 3 13 0, S_0x1012bec20;
+ .timescale 0 0;
+v0x1012ca4e0_0 .var "a1", 3 0;
+v0x1012ca580_0 .var "b1", 3 0;
+TD_comp4tb.run_case ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x1012ca760_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x1012ca800_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x1012ca8a0_0, 0, 1;
+    %load/vec4 v0x1012ca4e0_0;
+    %store/vec4 v0x1012ca620_0, 0, 4;
+    %load/vec4 v0x1012ca580_0;
+    %store/vec4 v0x1012ca6c0_0, 0, 4;
+    %delay 5, 0;
+    %load/vec4 v0x1012ca620_0;
+    %load/vec4 v0x1012ca6c0_0;
+    %cmp/u;
+    %jmp/0xz  T_0.0, 5;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x1012ca760_0, 0, 1;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v0x1012ca620_0;
+    %load/vec4 v0x1012ca6c0_0;
+    %cmp/e;
+    %jmp/0xz  T_0.2, 4;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x1012ca800_0, 0, 1;
+    %jmp T_0.3;
+T_0.2 ;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x1012ca8a0_0, 0, 1;
+T_0.3 ;
+T_0.1 ;
+    %load/vec4 v0x1012ca760_0;
+    %load/vec4 v0xb31068320_0;
+    %cmp/ne;
+    %jmp/1 T_0.7, 6;
+    %flag_mov 8, 6;
+    %load/vec4 v0x1012ca800_0;
+    %load/vec4 v0xb31068000_0;
+    %cmp/ne;
+    %flag_or 6, 8;
+T_0.7;
+    %jmp/1 T_0.6, 6;
+    %flag_mov 8, 6;
+    %load/vec4 v0x1012ca8a0_0;
+    %load/vec4 v0xb31068140_0;
+    %cmp/ne;
+    %flag_or 6, 8;
+T_0.6;
+    %jmp/0xz  T_0.4, 6;
+    %vpi_call/w 3 33 "$display", "FAIL: a=%b b=%b -> lt=%b eq=%b gt=%b | expected lt=%b eq=%b gt=%b", v0x1012ca620_0, v0x1012ca6c0_0, v0xb31068320_0, v0xb31068000_0, v0xb31068140_0, v0x1012ca760_0, v0x1012ca800_0, v0x1012ca8a0_0 {0 0 0};
+    %load/vec4 v0xb310680a0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0xb310680a0_0, 0, 32;
+    %jmp T_0.5;
+T_0.4 ;
+    %vpi_call/w 3 38 "$display", "PASS: a=%b b=%b -> lt=%b eq=%b gt=%b", v0x1012ca620_0, v0x1012ca6c0_0, v0xb31068320_0, v0xb31068000_0, v0xb31068140_0 {0 0 0};
+T_0.5 ;
+    %end;
+    .scope S_0x1012bec20;
+T_1 ;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0xb310680a0_0, 0, 32;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0xb310681e0_0, 0, 32;
+T_1.0 ; Top of for-loop
+    %load/vec4 v0xb310681e0_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_1.1, 5;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0xb31068280_0, 0, 32;
+T_1.3 ; Top of for-loop
+    %load/vec4 v0xb31068280_0;
+    %cmpi/s 16, 0, 32;
+	  %jmp/0xz T_1.4, 5;
+    %load/vec4 v0xb310681e0_0;
+    %parti/s 4, 0, 2;
+    %store/vec4 v0x1012ca4e0_0, 0, 4;
+    %load/vec4 v0xb31068280_0;
+    %parti/s 4, 0, 2;
+    %store/vec4 v0x1012ca580_0, 0, 4;
+    %fork TD_comp4tb.run_case, S_0x1012ca360;
+    %join;
+T_1.5 ; for-loop step statement
+    %load/vec4 v0xb31068280_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0xb31068280_0, 0, 32;
+    %jmp T_1.3;
+T_1.4 ; for-loop exit label
+T_1.2 ; for-loop step statement
+    %load/vec4 v0xb310681e0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0xb310681e0_0, 0, 32;
+    %jmp T_1.0;
+T_1.1 ; for-loop exit label
+    %load/vec4 v0xb310680a0_0;
+    %cmpi/e 0, 0, 32;
+    %jmp/0xz  T_1.6, 4;
+    %vpi_call/w 3 52 "$display", "ALL TESTS PASSED" {0 0 0};
+    %jmp T_1.7;
+T_1.6 ;
+    %vpi_call/w 3 54 "$display", "TOTAL FAILURES = %0d", v0xb310680a0_0 {0 0 0};
+T_1.7 ;
+    %vpi_call/w 3 55 "$finish" {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "-";
+    "tb/tb.v";
+    "rtl/rtl.v";
