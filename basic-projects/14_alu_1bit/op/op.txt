@@ -1,0 +1,34 @@
+PASS: a=0 b=0 cin=0 sel=00 y=0 cout=0
+PASS: a=0 b=0 cin=0 sel=01 y=0 cout=0
+PASS: a=0 b=0 cin=0 sel=10 y=0 cout=0
+PASS: a=0 b=0 cin=0 sel=11 y=0 cout=0
+PASS: a=0 b=0 cin=1 sel=00 y=0 cout=0
+PASS: a=0 b=0 cin=1 sel=01 y=0 cout=0
+PASS: a=0 b=0 cin=1 sel=10 y=0 cout=0
+PASS: a=0 b=0 cin=1 sel=11 y=1 cout=0
+PASS: a=0 b=1 cin=0 sel=00 y=0 cout=0
+PASS: a=0 b=1 cin=0 sel=01 y=1 cout=0
+PASS: a=0 b=1 cin=0 sel=10 y=1 cout=0
+PASS: a=0 b=1 cin=0 sel=11 y=1 cout=0
+PASS: a=0 b=1 cin=1 sel=00 y=0 cout=0
+PASS: a=0 b=1 cin=1 sel=01 y=1 cout=0
+PASS: a=0 b=1 cin=1 sel=10 y=1 cout=0
+PASS: a=0 b=1 cin=1 sel=11 y=0 cout=1
+PASS: a=1 b=0 cin=0 sel=00 y=0 cout=0
+PASS: a=1 b=0 cin=0 sel=01 y=1 cout=0
+PASS: a=1 b=0 cin=0 sel=10 y=1 cout=0
+PASS: a=1 b=0 cin=0 sel=11 y=1 cout=0
+PASS: a=1 b=0 cin=1 sel=00 y=0 cout=0
+PASS: a=1 b=0 cin=1 sel=01 y=1 cout=0
+PASS: a=1 b=0 cin=1 sel=10 y=1 cout=0
+PASS: a=1 b=0 cin=1 sel=11 y=0 cout=1
+PASS: a=1 b=1 cin=0 sel=00 y=1 cout=0
+PASS: a=1 b=1 cin=0 sel=01 y=1 cout=0
+PASS: a=1 b=1 cin=0 sel=10 y=0 cout=0
+PASS: a=1 b=1 cin=0 sel=11 y=0 cout=1
+PASS: a=1 b=1 cin=1 sel=00 y=1 cout=0
+PASS: a=1 b=1 cin=1 sel=01 y=1 cout=0
+PASS: a=1 b=1 cin=1 sel=10 y=0 cout=0
+PASS: a=1 b=1 cin=1 sel=11 y=1 cout=1
+NO ERRORS
+tb/tb.v:85: $finish called at 160000 (1ps)

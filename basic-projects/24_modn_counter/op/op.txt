@@ -1,0 +1,23 @@
+PASS: ASYNC RESET -> count= 0
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 1
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 2
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 3
+PASS: rstn=1 mode=1 load_en=1 load= 7 -> count= 7
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 8
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 9
+PASS: rstn=1 mode=0 load_en=1 load= 5 -> count= 5
+PASS: rstn=1 mode=0 load_en=0 load= 0 -> count= 4
+PASS: rstn=1 mode=0 load_en=0 load= 0 -> count= 3
+PASS: rstn=1 mode=1 load_en=1 load= 0 -> count= 0
+PASS: rstn=1 mode=0 load_en=0 load= 0 -> count=12
+PASS: rstn=1 mode=0 load_en=0 load= 0 -> count=11
+PASS: rstn=1 mode=1 load_en=1 load=12 -> count=12
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 0
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 1
+PASS: rstn=1 mode=1 load_en=1 load=13 -> count= 0
+PASS: rstn=1 mode=1 load_en=1 load=15 -> count= 0
+PASS: ASYNC RESET -> count= 0
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 1
+PASS: rstn=1 mode=1 load_en=0 load= 0 -> count= 2
+ALL TESTS PASSED
+tb/tb.v:146: $finish called at 196000 (1ps)

@@ -1,0 +1,10 @@
+PASS: reset asserted -> q=0
+PASS: rst_n=1 d=0 -> q=0
+PASS: rst_n=1 d=1 -> q=1
+PASS: rst_n=1 d=0 -> q=0
+PASS: rst_n=1 d=1 -> q=1
+PASS: reset asserted -> q=0
+PASS: rst_n=1 d=1 -> q=1
+PASS: rst_n=1 d=0 -> q=0
+ALL TESTS PASSED
+tb/tb.v:96: $finish called at 86000 (1ps)

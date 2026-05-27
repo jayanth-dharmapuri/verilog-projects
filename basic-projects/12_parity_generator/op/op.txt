@@ -1,0 +1,18 @@
+PASS: a=0000 -> even_p=0 odd_p=1
+PASS: a=0001 -> even_p=1 odd_p=0
+PASS: a=0010 -> even_p=1 odd_p=0
+PASS: a=0011 -> even_p=0 odd_p=1
+PASS: a=0100 -> even_p=1 odd_p=0
+PASS: a=0101 -> even_p=0 odd_p=1
+PASS: a=0110 -> even_p=0 odd_p=1
+PASS: a=0111 -> even_p=1 odd_p=0
+PASS: a=1000 -> even_p=1 odd_p=0
+PASS: a=1001 -> even_p=0 odd_p=1
+PASS: a=1010 -> even_p=0 odd_p=1
+PASS: a=1011 -> even_p=1 odd_p=0
+PASS: a=1100 -> even_p=0 odd_p=1
+PASS: a=1101 -> even_p=1 odd_p=0
+PASS: a=1110 -> even_p=1 odd_p=0
+PASS: a=1111 -> even_p=0 odd_p=1
+ALL TESTS PASSED
+tb/tb.v:51: $finish called at 16000 (1ps)

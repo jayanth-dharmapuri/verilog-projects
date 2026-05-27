@@ -1,0 +1,38 @@
+---- RESET CHECK ----
+PASS SISO RESET: sout=0
+PASS SIPO RESET: pout=0000
+PASS PISO RESET: sout=0
+PASS PIPO RESET: pout=0000
+---- TESTING SISO + SIPO ----
+PASS SIPO: sin=1 pout=0001
+PASS SISO: sin=1 sout=0
+PASS SIPO: sin=0 pout=0010
+PASS SISO: sin=0 sout=0
+PASS SIPO: sin=1 pout=0101
+PASS SISO: sin=1 sout=0
+PASS SIPO: sin=1 pout=1011
+PASS SISO: sin=1 sout=1
+PASS SIPO: sin=0 pout=0110
+PASS SISO: sin=0 sout=0
+---- RESET CHECK ----
+PASS SISO RESET: sout=0
+PASS SIPO RESET: pout=0000
+PASS PISO RESET: sout=0
+PASS PIPO RESET: pout=0000
+---- TESTING PISO ----
+PASS PISO LOAD: pin=1011 sout=1
+PASS PISO SHIFT: sout=0
+PASS PISO SHIFT: sout=1
+PASS PISO SHIFT: sout=1
+PASS PISO SHIFT: sout=0
+---- RESET CHECK ----
+PASS SISO RESET: sout=0
+PASS SIPO RESET: pout=0000
+PASS PISO RESET: sout=0
+PASS PIPO RESET: pout=0000
+---- TESTING PIPO ----
+PASS PIPO: pin=1100 pout=1100
+PASS PIPO: pin=0011 pout=0011
+PASS PIPO: pin=1010 pout=1010
+ALL TESTS PASSED
+tb/tb.v:267: $finish called at 166000 (1ps)

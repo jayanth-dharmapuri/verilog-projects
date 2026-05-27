@@ -1,0 +1,13 @@
+PASS: async reset -> q=0
+PASS: rstn=1 j=0 k=0 -> q=0
+PASS: rstn=1 j=1 k=0 -> q=1
+PASS: rstn=1 j=0 k=0 -> q=1
+PASS: rstn=1 j=0 k=1 -> q=0
+PASS: rstn=1 j=1 k=1 -> q=1
+PASS: rstn=1 j=1 k=1 -> q=0
+PASS: async reset -> q=0
+PASS: rstn=1 j=1 k=0 -> q=1
+PASS: rstn=1 j=0 k=1 -> q=0
+PASS: rstn=1 j=1 k=1 -> q=1
+ALL TESTS PASSED
+tb/tb.v:105: $finish called at 116000 (1ps)

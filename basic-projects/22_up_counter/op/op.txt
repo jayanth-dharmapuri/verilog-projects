@@ -1,0 +1,22 @@
+PASS: rstn=0 count=0000
+PASS: rstn=1 count=0001
+PASS: rstn=1 count=0010
+PASS: rstn=1 count=0011
+PASS: rstn=1 count=0100
+PASS: rstn=1 count=0101
+PASS: rstn=1 count=0110
+PASS: rstn=1 count=0111
+PASS: rstn=1 count=1000
+PASS: rstn=1 count=1001
+PASS: rstn=1 count=1010
+PASS: rstn=1 count=1011
+PASS: rstn=1 count=1100
+PASS: rstn=1 count=1101
+PASS: rstn=1 count=1110
+PASS: rstn=1 count=1111
+PASS: rstn=1 count=0000
+PASS: rstn=0 count=0000
+PASS: rstn=1 count=0001
+PASS: rstn=1 count=0010
+ALL TESTS PASSED
+tb/tb.v:79: $finish called at 186000 (1ps)
