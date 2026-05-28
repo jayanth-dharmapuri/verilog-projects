@@ -1,0 +1,11 @@
+PASS: q=0001
+PASS: q=0010
+PASS: q=0100
+PASS: q=1000
+PASS: q=0001
+PASS: q=0010
+PASS: q=0001
+PASS: q=0010
+PASS: q=0100
+ALL TESTS PASSED
+tb/tb.v:72: $finish called at 76000 (1ps)

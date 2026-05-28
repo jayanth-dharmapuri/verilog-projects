@@ -1,0 +1,15 @@
+PASS: rstn=0 q=0000
+PASS: rstn=1 q=1000
+PASS: rstn=1 q=1100
+PASS: rstn=1 q=1110
+PASS: rstn=1 q=1111
+PASS: rstn=1 q=0111
+PASS: rstn=1 q=0011
+PASS: rstn=1 q=0001
+PASS: rstn=1 q=0000
+PASS: rstn=1 q=1000
+PASS: rstn=0 q=0000
+PASS: rstn=1 q=1000
+PASS: rstn=1 q=1100
+ALL TESTS PASSED
+tb/tb.v:78: $finish called at 116000 (1ps)
