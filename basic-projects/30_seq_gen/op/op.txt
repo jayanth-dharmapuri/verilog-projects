@@ -1,0 +1,19 @@
+PASS: rst=1 seq_out=1
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=0
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=0
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=0
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=0
+PASS: rst=0 seq_out=1
+PASS: rst=1 seq_out=1
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=0
+PASS: rst=0 seq_out=1
+PASS: rst=0 seq_out=1
+ALL TESTS PASSED
+tb/tb.v:88: $finish called at 136000 (1ps)
