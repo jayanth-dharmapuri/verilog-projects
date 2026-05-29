@@ -1,0 +1,32 @@
+PASS RESET: z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=1
+PASS: en=1 x=1 z=1
+PASS: en=1 x=0 z=1
+PASS: en=1 x=1 z=1
+PASS: en=1 x=1 z=1
+PASS: en=1 x=0 z=0
+PASS HOLD: en=0 x=1 z=0
+PASS HOLD: en=0 x=0 z=0
+PASS HOLD: en=0 x=1 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=1 z=0
+PASS: en=1 x=0 z=1
+PASS RESET: z=0
+ALL TESTS PASSED
+tb/tb.v:152: $finish called at 319000 (1ps)
