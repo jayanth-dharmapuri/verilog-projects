@@ -1,0 +1,18 @@
+Applying reset...
+Sending 110100
+rst_n=1 d=1 x=0 state=1 next_state=2
+rst_n=1 d=1 x=0 state=2 next_state=2
+rst_n=1 d=0 x=0 state=3 next_state=0
+rst_n=1 d=1 x=0 state=4 next_state=2
+rst_n=1 d=0 x=0 state=5 next_state=6
+rst_n=1 d=0 x=1 state=6 next_state=0
+One extra bit after detect
+rst_n=1 d=1 x=0 state=1 next_state=2
+Sending 110100 again
+rst_n=1 d=1 x=0 state=2 next_state=2
+rst_n=1 d=1 x=0 state=2 next_state=2
+rst_n=1 d=0 x=0 state=3 next_state=0
+rst_n=1 d=1 x=0 state=4 next_state=2
+rst_n=1 d=0 x=0 state=5 next_state=6
+rst_n=1 d=0 x=1 state=6 next_state=0
+tb/tb.v:62: $finish called at 146000 (1ps)

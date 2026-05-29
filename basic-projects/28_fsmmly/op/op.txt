@@ -1,0 +1,27 @@
+Sending 110100
+BEFORE posedge : rst_n=1 d=1 x=0 st=0 nst=1
+AFTER  posedge : rst_n=1 d=1 x=0 st=1 nst=2
+BEFORE posedge : rst_n=1 d=1 x=0 st=1 nst=2
+AFTER  posedge : rst_n=1 d=1 x=0 st=2 nst=2
+BEFORE posedge : rst_n=1 d=0 x=0 st=2 nst=3
+AFTER  posedge : rst_n=1 d=0 x=0 st=3 nst=0
+BEFORE posedge : rst_n=1 d=1 x=0 st=3 nst=4
+AFTER  posedge : rst_n=1 d=1 x=0 st=4 nst=2
+BEFORE posedge : rst_n=1 d=0 x=0 st=4 nst=5
+AFTER  posedge : rst_n=1 d=0 x=1 st=5 nst=0
+BEFORE posedge : rst_n=1 d=0 x=1 st=5 nst=0
+AFTER  posedge : rst_n=1 d=0 x=0 st=0 nst=0
+Sending 110100 again
+BEFORE posedge : rst_n=1 d=1 x=0 st=0 nst=1
+AFTER  posedge : rst_n=1 d=1 x=0 st=1 nst=2
+BEFORE posedge : rst_n=1 d=1 x=0 st=1 nst=2
+AFTER  posedge : rst_n=1 d=1 x=0 st=2 nst=2
+BEFORE posedge : rst_n=1 d=0 x=0 st=2 nst=3
+AFTER  posedge : rst_n=1 d=0 x=0 st=3 nst=0
+BEFORE posedge : rst_n=1 d=1 x=0 st=3 nst=4
+AFTER  posedge : rst_n=1 d=1 x=0 st=4 nst=2
+BEFORE posedge : rst_n=1 d=0 x=0 st=4 nst=5
+AFTER  posedge : rst_n=1 d=0 x=1 st=5 nst=0
+BEFORE posedge : rst_n=1 d=0 x=1 st=5 nst=0
+AFTER  posedge : rst_n=1 d=0 x=0 st=0 nst=0
+tb/tb.v:59: $finish called at 136000 (1ps)
