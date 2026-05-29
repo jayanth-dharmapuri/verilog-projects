@@ -1,0 +1,15 @@
+PASS: rst=1 count=00 clk_div4=0
+PASS: rst=0 count=01 clk_div4=0
+PASS: rst=0 count=10 clk_div4=1
+PASS: rst=0 count=11 clk_div4=1
+PASS: rst=0 count=00 clk_div4=0
+PASS: rst=0 count=01 clk_div4=0
+PASS: rst=0 count=10 clk_div4=1
+PASS: rst=0 count=11 clk_div4=1
+PASS: rst=0 count=00 clk_div4=0
+PASS: rst=1 count=00 clk_div4=0
+PASS: rst=0 count=01 clk_div4=0
+PASS: rst=0 count=10 clk_div4=1
+PASS: rst=0 count=11 clk_div4=1
+ALL TESTS PASSED
+tb/tb.v:91: $finish called at 126000 (1ps)
